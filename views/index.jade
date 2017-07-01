@@ -1,0 +1,66 @@
+extends layout
+
+block content
+
+	// Page Header
+	header(class="intro-header" style="background-image: url('/images/home-bg.jpg')")
+		div.container
+			div.row
+				div(class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1")
+					div.site-heading
+						h1= title
+						hr.small
+						span(class="subheading") #{description}
+
+	// Main Content
+	div.container
+		div.row
+			div(class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1")
+				div.post-preview
+					a(href="/post")
+						h2(class="post-title") Man must explore, and this is exploration at its greatest
+						h3(class="post-subtitle") Problems look mighty small from 150 miles up
+					p(class="post-meta") 
+						Posted by 
+						a(href="#") 
+							Start Bootstrap 
+						on July 1, 2017
+				hr
+
+				div.post-preview
+					a(href="/post")
+						h2(class="post-title") I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+					p(class="post-meta") 
+						Posted by 
+						a(href="#") 
+							Start Bootstrap 
+						on July 1, 2017
+				hr
+
+				div.post-preview
+					a(href="/post")
+						h2(class="post-title") Science has not yet mastered prophecy
+						h3(class="post-subtitle") We predict too much for the next year and yet far too little for the next ten.
+					p(class="post-meta") 
+						Posted by 
+						a(href="#") 
+							Start Bootstrap 
+						on July 1, 2017
+				hr
+
+				div.post-preview
+					a(href="/post")
+						h2(class="post-title") Failure is not an option
+						h3(class="post-subtitle") Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+					p(class="post-meta") 
+						Posted by 
+						a(href="#") 
+							Start Bootstrap 
+						on July 1, 2017
+				hr
+
+				// Pager
+				ul.pager
+					li.next
+						a(href="#") Older Posts &rarr;
+
